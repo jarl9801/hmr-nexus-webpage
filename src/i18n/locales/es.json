@@ -1,0 +1,383 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "products": "Productos",
+    "portfolio": "Proyectos",
+    "contact": "Contacto",
+    "cta": "Solicitar Proyecto"
+  },
+  "hero": {
+    "badge": "Fiber & Software Solutions",
+    "title1": "Construimos",
+    "title2": "Redes.",
+    "title3": "Desarrollamos",
+    "title4": "Tecnología.",
+    "subtitle": "Su socio estratégico para infraestructura de fibra óptica (NE3/NE4) y soluciones de software a medida para la industria de telecomunicaciones en Alemania y Europa.",
+    "btnPrimary": "Descubrir Servicios",
+    "btnSecondary": "Nuestro Software",
+    "stats": {
+      "km": "km Fibra",
+      "connections": "Conexiones",
+      "countries": "Países"
+    },
+    "title5": "Integramos",
+    "title6": "Ecosistemas."
+  },
+  "values": {
+    "quality": "Calidad",
+    "innovation": "Innovación",
+    "service": "Servicio"
+  },
+  "services": {
+    "label": "Nuestra Experiencia",
+    "title": "Dos Mundos,",
+    "titleHighlight": "Una Visión",
+    "subtitle": "Desde la infraestructura física hasta la transformación digital – ofrecemos soluciones integrales para la industria de telecomunicaciones.",
+    "fiber": {
+      "title": "Infraestructura de Fibra",
+      "description": "Despliegue profesional de redes de fibra óptica con los más altos estándares de calidad para operadores de red y municipios.",
+      "items": {
+        "ne3_label": "NE3 Ausbau",
+        "ne3": "Redes de distribución regional desde KEV hasta HÜP",
+        "ne4_label": "NE4 FTTH",
+        "ne4": "Conexiones domiciliarias, empalmes e instalación ONT",
+        "tiefbau_label": "Tiefbau",
+        "tiefbau": "Tendido de tubos vacíos y cables",
+        "pm_label": "Projektmanagement",
+        "pm": "Planificación, documentación y control de calidad"
+      }
+    },
+    "software": {
+      "title": "Software & Digital",
+      "description": "Soluciones de software a medida y productos digitales para eficiencia y escalabilidad en la industria de telecomunicaciones.",
+      "items": {
+        "control_label": "Sistema de Control",
+        "control": "Sistema de Control para gestión de proyectos",
+        "bot_label": "Bot de Citas",
+        "bot": "Bot de Citas para negocios y consecución de clientes",
+        "mobile_label": "Mobile Apps",
+        "mobile": "Gestión de servicio de campo para técnicos",
+        "integration_label": "Integración",
+        "integration": "SAP, GIS y sistemas heredados"
+      }
+    }
+  },
+  "products": {
+    "label": "Nuestros Productos",
+    "title": "Software que",
+    "titleHighlight": "Transforma",
+    "subtitle": "Desarrollamos herramientas reales en uso activo — desde apps para técnicos de campo hasta sistemas de control financiero y analítica con IA.",
+    "cta": {
+      "title": "¿Tienes un proyecto en mente?",
+      "subtitle": "Desarrollamos soluciones a medida para telecomunicaciones, automatización y gestión empresarial.",
+      "btn": "Hablemos de Tu Proyecto"
+    },
+    "workmanager": {
+      "title": "Work Manager",
+      "type": "PWA · Field Ops",
+      "badge": "Live",
+      "description": "Aplicación web progresiva para gestión de obras de fibra óptica. Rastrea el ciclo completo desde soplado hasta certificación y facturación.",
+      "metrics": [
+        {
+          "value": "5",
+          "label": "Etapas"
+        },
+        {
+          "value": "PWA",
+          "label": "Plataforma"
+        },
+        {
+          "value": "100%",
+          "label": "Web"
+        }
+      ],
+      "features": {
+        "0": "Ciclo completo: Soplado → Fusionado → Alta → Certificado → Facturado",
+        "1": "Acceso desde cualquier dispositivo sin instalación",
+        "2": "Control de avance y estado de proyectos en tiempo real"
+      },
+      "cta": "Ver App"
+    },
+    "fincontrol": {
+      "title": "FinControl",
+      "type": "React · Firebase · Cloud",
+      "badge": "Live",
+      "description": "Sistema de gestión financiera empresarial con control de transacciones, cuentas por cobrar y pagar, flujo de caja y reportes visuales.",
+      "metrics": [
+        {
+          "value": "CXP",
+          "label": "Cobros"
+        },
+        {
+          "value": "CXC",
+          "label": "Pagos"
+        },
+        {
+          "value": "Cloud",
+          "label": "Hosting"
+        }
+      ],
+      "features": {
+        "0": "Dashboard financiero con métricas en tiempo real",
+        "1": "Control de transacciones, CXP y CXC",
+        "2": "Reportes de flujo de caja y análisis por período"
+      },
+      "cta": "Solicitar Demo"
+    },
+    "bot": {
+      "title": "Nexus AI Bot",
+      "type": "Telegram · AI · Automación",
+      "badge": "Beta",
+      "description": "Asistente de operaciones basado en IA para automatizar gestión de agenda, recordatorios, informes y comunicación con el equipo técnico.",
+      "metrics": [
+        {
+          "value": "24/7",
+          "label": "Disponible"
+        },
+        {
+          "value": "AI",
+          "label": "Motor"
+        },
+        {
+          "value": "3+",
+          "label": "Canales"
+        }
+      ],
+      "features": {
+        "0": "Gestión automática de agenda y recordatorios",
+        "1": "Integración con Telegram, WhatsApp y email",
+        "2": "Reportes automáticos y análisis de operaciones"
+      },
+      "cta": "Conocer Más"
+    },
+    "aianalytics": {
+      "title": "Analytics Dashboard",
+      "type": "Python · Streamlit · IA",
+      "badge": "Roadmap",
+      "description": "Plataforma de análisis de datos con inteligencia artificial para decisiones estratégicas en proyectos de telecomunicaciones e inversión.",
+      "metrics": [
+        {
+          "value": "AI",
+          "label": "Core"
+        },
+        {
+          "value": "Live",
+          "label": "Data"
+        },
+        {
+          "value": "KPI",
+          "label": "Tracking"
+        }
+      ],
+      "features": {
+        "0": "Análisis predictivo con modelos de machine learning",
+        "1": "Dashboards Bloomberg-style con datos en tiempo real"
+      },
+      "cta": "Próximamente"
+    }
+  },
+  "stats": {
+    "label": "Métricas",
+    "title": "Nuestros Números",
+    "subtitle": "Cifras que respaldan nuestra experiencia en fibra óptica y desarrollo de software.",
+    "experience": "Años de Experiencia",
+    "km": "Kilómetros de Fibra",
+    "connections": "Conexiones Realizadas",
+    "countries": "Colombia y Alemania",
+    "founders": "Fundadores",
+    "saas": "Producto SaaS"
+  },
+  "globalPresence": {
+    "label": "Presencia Global",
+    "title": "Dos Países",
+    "titleHighlight": "Una Visión",
+    "subtitle": "Combinamos la precisión técnica alemana con la innovación colombiana para ofrecer soluciones globales de clase mundial.",
+    "germany": {
+      "role": "Sede Central",
+      "description": "Centro de operaciones para proyectos de fibra óptica en Alemania y Europa. Desde aquí coordinamos todas las operaciones de infraestructura."
+    },
+    "colombia": {
+      "role": "Centro de Desarrollo",
+      "description": "Equipo de desarrollo de software y operaciones LATAM. Innovación tecnológica con talento colombiano para el mundo."
+    },
+    "stats": {
+      "countries": "Países",
+      "fiber": "km Fibra",
+      "timediff": "Diferencia",
+      "operations": "Operaciones"
+    }
+  },
+  "portfolio": {
+    "label": "Referencias",
+    "title": "Proyectos",
+    "titleHighlight": "Exitosos",
+    "subtitle": "Una selección de nuestros proyectos de infraestructura y software en Alemania y Colombia.",
+    "comingSoon": {
+      "title": "Próximamente",
+      "description": "Estamos trabajando en nuestros primeros proyectos. Muy pronto podrás ver aquí nuestros casos de éxito."
+    },
+    "projects": {
+      "celle": {
+        "tag": "Despliegue NE3",
+        "title": "Región Norte de Celle",
+        "description": "Despliegue completo de la red de distribución regional en colaboración con un proveedor de telecomunicaciones líder.",
+        "metrics": {
+          "km": "km",
+          "hup": "HÜP",
+          "months": "Meses"
+        }
+      },
+      "saas": {
+        "tag": "Software",
+        "title": "Sistema de Control",
+        "description": "Desarrollo e implementación de una plataforma integral para la gestión y control de proyectos empresariales.",
+        "metrics": {
+          "cloud": "Cloud",
+          "available": "Disponible",
+          "languages": "Idiomas"
+        }
+      },
+      "suedheide": {
+        "tag": "NE4 FTTH",
+        "title": "Área Residencial Südheide",
+        "description": "Desarrollo FTTH completo de una nueva área residencial con más de 500 unidades de vivienda.",
+        "metrics": {
+          "units": "Unidades",
+          "km": "km",
+          "ontime": "A Tiempo"
+        }
+      },
+      "mdu": {
+        "tag": "NE4 MDU",
+        "title": "Conexiones MDU — Proyecto Activo",
+        "description": "Inicio de despliegue NE4 con conexiones a unidades residenciales multifamiliares (MDU). Primera fase de expansión en nuevas áreas urbanas.",
+        "metrics": {
+          "type": "Tipo",
+          "level": "Nivel",
+          "start": "Inicio"
+        }
+      }
+    }
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Inicie Su",
+    "titleHighlight": "Proyecto",
+    "subtitle": "Ya sea despliegue de fibra o desarrollo de software – estamos encantados de asesorarle y encontrar la solución óptima.",
+    "info": {
+      "title": "Hablemos",
+      "description": "¿Tiene un proyecto en mente o preguntas sobre nuestros servicios? Nuestro equipo está disponible para una conversación sin compromiso.",
+      "address": {
+        "title": "Sede Central",
+        "line1": "Bilderbeckstraße 127",
+        "line2": "29221 Celle, Alemania"
+      },
+      "phone": {
+        "title": "Teléfono"
+      },
+      "email": {
+        "title": "Correo Electrónico"
+      }
+    },
+    "form": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "projectType": "Tipo de Proyecto",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "selectType": "Por favor seleccione...",
+      "types": {
+        "ne3": "Despliegue NE3 Fibra",
+        "ne4": "Instalación NE4 FTTH",
+        "software": "Desarrollo de Software",
+        "bot": "Bot de Citas para Negocios",
+        "saas": "Solicitar Demo Sistema",
+        "other": "Otro"
+      },
+      "success": "¡Gracias! Su mensaje ha sido enviado exitosamente. Nos pondremos en contacto con usted.",
+      "error": "Por favor complete todos los campos obligatorios correctamente.",
+      "security": "Formulario seguro con encriptación SSL",
+      "antispam": "Protegido contra spam y bots"
+    }
+  },
+  "trustBanner": {
+    "germanTech": "Tecnología alemana · Presencia colombiana",
+    "iso": "ISO 9001",
+    "ftth": "FTTH Certified",
+    "availability": "Disponible 24/7"
+  },
+  "teamSection": {
+    "label": "Nuestro Equipo",
+    "title": "Expertos en",
+    "titleHighlight": "Fibra & Software",
+    "description": "Combinamos experiencia técnica alemana con innovación latinoamericana para ofrecer soluciones de clase mundial.",
+    "members": {
+      "ceo": {
+        "name": "Hector M. Rodriguez",
+        "role": "Fundador & CEO",
+        "location": "Celle, Alemania",
+        "bio": "Ingeniero de telecomunicaciones con más de 10 años de experiencia en infraestructura de fibra óptica. Anteriormente en Deutsche Telekom.",
+        "experience": [
+          "Ex-Telekom",
+          "10+ años fibra óptica",
+          "Ingeniero Software"
+        ]
+      },
+      "coo": {
+        "name": "Maria L. Torres",
+        "role": "Co-Fundadora & COO",
+        "location": "Bogotá, Colombia",
+        "bio": "Especialista en operaciones que impulsa la eficiencia en proyectos internacionales de telecomunicaciones.",
+        "experience": [
+          "Gestión de Operaciones",
+          "Proyectos Internacionales",
+          "Optimización de Procesos"
+        ]
+      },
+      "cto": {
+        "name": "Carlos A. Méndez",
+        "role": "Co-Fundador & CTO",
+        "location": "Bogotá, Colombia",
+        "bio": "Arquitecto de software especializado en infraestructura cloud y plataformas escalables para la industria telecom.",
+        "experience": [
+          "Arquitecto de Software",
+          "8+ años desarrollo",
+          "Cloud & DevOps"
+        ]
+      }
+    }
+  },
+  "whatsapp": {
+    "tooltip": "¿Necesitas ayuda? ¡Escríbenos! 💬",
+    "helpTitle": "¿En qué podemos ayudarte?",
+    "defaultMessage": "Hola, estoy interesado en conocer más sobre sus servicios.",
+    "options": {
+      "fiber": "Fibra Óptica NE3/NE4",
+      "bot": "Bot de Citas",
+      "custom": "Software a medida"
+    },
+    "messages": {
+      "fiber": "Hola, me interesa el servicio de Fibra Óptica NE3/NE4",
+      "bot": "Hola, me interesa el Bot de Citas",
+      "custom": "Hola, necesito un software a medida"
+    }
+  },
+  "footer": {
+    "description": "Su socio estratégico para infraestructura de fibra óptica y soluciones tecnológicas innovadoras en Alemania y Europa.",
+    "tagline": "Calidad · Innovación · Servicio",
+    "navigation": "Navegación",
+    "services": "Servicios",
+    "legal": "Legal",
+    "legalLinks": {
+      "imprint": "Aviso Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos"
+    },
+    "copyright": "© 2026 HMR Nexus Engineering GmbH. Todos los derechos reservados.",
+    "madeIn": "Made with precision in Celle, Germany"
+  }
+}

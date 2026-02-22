@@ -1,0 +1,363 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "products": "Produkte",
+    "portfolio": "Projekte",
+    "contact": "Kontakt",
+    "cta": "Projekt anfragen"
+  },
+  "hero": {
+    "badge": "Fiber & Software Solutions",
+    "title1": "Wir bauen",
+    "title2": "Netzwerke.",
+    "title3": "Wir entwickeln",
+    "title4": "Technologie.",
+    "subtitle": "Ihr strategischer Partner für Glasfaser-Infrastruktur (NE3/NE4) und maßgeschneiderte Softwarelösungen für die Telekommunikationsbranche in Deutschland und Europa.",
+    "btnPrimary": "Leistungen entdecken",
+    "btnSecondary": "Unsere Software",
+    "stats": {
+      "km": "km Glasfaser",
+      "connections": "Hausanschlüsse",
+      "countries": "Länder"
+    },
+    "title5": "Wir integrieren",
+    "title6": "Ökosysteme."
+  },
+  "values": {
+    "quality": "Qualität",
+    "innovation": "Innovation",
+    "service": "Service"
+  },
+  "services": {
+    "label": "Unsere Expertise",
+    "title": "Zwei Welten,",
+    "titleHighlight": "eine Vision",
+    "subtitle": "Von der physischen Infrastruktur bis zur digitalen Transformation – wir bieten ganzheitliche Lösungen für die Telekommunikationsbranche.",
+    "fiber": {
+      "title": "Glasfaser-Infrastruktur",
+      "description": "Professioneller Ausbau von Glasfasernetzen nach höchsten Qualitätsstandards für Netzbetreiber und Kommunen.",
+      "items": {
+        "ne3_label": "NE3 Ausbau",
+        "ne3": "Regionale Verteilnetze vom KEV bis zum HÜP",
+        "ne4_label": "NE4 FTTH",
+        "ne4": "Hausanschlüsse, Spleißarbeiten und ONT-Installation",
+        "tiefbau_label": "Tiefbau",
+        "tiefbau": "Verlegung von Leerrohren und Kabeln",
+        "pm_label": "Projektmanagement",
+        "pm": "Planung, Dokumentation und QS"
+      }
+    },
+    "software": {
+      "title": "Software & Digital",
+      "description": "Maßgeschneiderte Softwarelösungen und digitale Produkte für Effizienz und Skalierbarkeit in der Telekom-Branche.",
+      "items": {
+        "control_label": "Control System",
+        "control": "Control System für Projektmanagement",
+        "bot_label": "Termin-Bot",
+        "bot": "Termin-Bot für Unternehmen und Kundengewinnung",
+        "mobile_label": "Mobile Apps",
+        "mobile": "Field Service Management für Techniker",
+        "integration_label": "Integration",
+        "integration": "SAP, GIS und Bestandssysteme"
+      }
+    }
+  },
+  "products": {
+    "label": "Unsere Produkte",
+    "title": "Software die",
+    "titleHighlight": "Transformiert",
+    "subtitle": "Reale Tools im aktiven Einsatz — von Field-Ops-Apps für Techniker bis hin zu Finanzkontrollsystemen und KI-Analytik.",
+    "cta": {
+      "title": "Haben Sie ein Projekt im Sinn?",
+      "subtitle": "Wir entwickeln maßgeschneiderte Lösungen für Telekommunikation, Automatisierung und Unternehmensmanagement.",
+      "btn": "Projekt besprechen"
+    },
+    "workmanager": {
+      "title": "Work Manager",
+      "type": "PWA · Feldeinsatz",
+      "badge": "Live",
+      "description": "Progressive Web App für die Glasfaserprojektverwaltung. Verfolgt den gesamten Lebenszyklus von der Einblasung bis zur Zertifizierung.",
+      "metrics": [
+        {
+          "value": "5",
+          "label": "Phasen"
+        },
+        {
+          "value": "PWA",
+          "label": "Plattform"
+        },
+        {
+          "value": "100%",
+          "label": "Web"
+        }
+      ],
+      "features": {
+        "0": "Vollständiger Zyklus: Einblasung → Spleißung → Aktiv → Zertifiziert → Abgerechnet",
+        "1": "Zugriff von jedem Gerät, keine Installation erforderlich",
+        "2": "Echtzeit-Projektstatus und Fortschrittsverfolgung"
+      },
+      "cta": "App ansehen"
+    },
+    "fincontrol": {
+      "title": "FinControl",
+      "type": "React · Firebase · Cloud",
+      "badge": "Live",
+      "description": "Unternehmensfinanzsystem mit Transaktionskontrolle, Debitoren/Kreditoren, Cashflow-Verfolgung und visuellen Berichten.",
+      "metrics": [
+        {
+          "value": "Deb.",
+          "label": "Forderungen"
+        },
+        {
+          "value": "Kred.",
+          "label": "Verbindlichk."
+        },
+        {
+          "value": "Cloud",
+          "label": "Hosting"
+        }
+      ],
+      "features": {
+        "0": "Finanzdashboard mit Echtzeitkennzahlen",
+        "1": "Transaktions-, Debitoren- und Kreditorenverwaltung",
+        "2": "Cashflow-Berichte und Periodenanalyse"
+      },
+      "cta": "Demo anfragen"
+    },
+    "bot": {
+      "title": "Nexus AI Bot",
+      "type": "Telegram · KI · Automatisierung",
+      "badge": "Beta",
+      "description": "KI-gestützter Betriebsassistent für automatisierte Terminplanung, Erinnerungen, Berichte und Teamkommunikation.",
+      "metrics": [
+        {
+          "value": "24/7",
+          "label": "Verfügbar"
+        },
+        {
+          "value": "KI",
+          "label": "Engine"
+        },
+        {
+          "value": "3+",
+          "label": "Kanäle"
+        }
+      ],
+      "features": {
+        "0": "Automatische Terminverwaltung und Erinnerungen",
+        "1": "Integration mit Telegram, WhatsApp und E-Mail",
+        "2": "Automatisierte Berichte und Betriebsanalysen"
+      },
+      "cta": "Mehr erfahren"
+    },
+    "aianalytics": {
+      "title": "Analytics Dashboard",
+      "type": "Python · Streamlit · KI",
+      "badge": "Roadmap",
+      "description": "KI-gestützte Datenanalyseplattform für strategische Entscheidungen in Telekommunikationsprojekten.",
+      "metrics": [
+        {
+          "value": "KI",
+          "label": "Kern"
+        },
+        {
+          "value": "Live",
+          "label": "Daten"
+        },
+        {
+          "value": "KPI",
+          "label": "Tracking"
+        }
+      ],
+      "features": {
+        "0": "Prädiktive Analytik mit Machine-Learning-Modellen",
+        "1": "Bloomberg-Style-Dashboards mit Livedaten"
+      },
+      "cta": "Demnächst"
+    }
+  },
+  "stats": {
+    "label": "Kennzahlen",
+    "title": "Unsere Zahlen",
+    "subtitle": "Zahlen, die unsere Erfahrung in Glasfaser und Softwareentwicklung belegen.",
+    "experience": "Jahre Erfahrung",
+    "km": "Kilometer Glasfaser",
+    "connections": "Hausanschlüsse realisiert",
+    "countries": "Kolumbien & Deutschland",
+    "founders": "Gründer",
+    "saas": "SaaS Produkt"
+  },
+  "portfolio": {
+    "label": "Referenzen",
+    "title": "Erfolgreiche",
+    "titleHighlight": "Projekte",
+    "subtitle": "Eine Auswahl unserer Infrastruktur- und Softwareprojekte in Deutschland und Kolumbien.",
+    "comingSoon": {
+      "title": "Demnächst",
+      "description": "Wir arbeiten an unseren ersten Projekten. Bald finden Sie hier unsere Erfolgsgeschichten."
+    },
+    "projects": {
+      "celle": {
+        "tag": "NE3 Ausbau",
+        "title": "Region Celle Nord",
+        "description": "Kompletter Ausbau des regionalen Verteilnetzes in Zusammenarbeit mit einem führenden Telekom-Anbieter.",
+        "metrics": {
+          "km": "km",
+          "hup": "HÜP",
+          "months": "Monate"
+        }
+      },
+      "saas": {
+        "tag": "Software",
+        "title": "Control System",
+        "description": "Entwicklung und Deployment einer umfassenden Plattform für Geschäftsprojektmanagement und -kontrolle.",
+        "metrics": {
+          "cloud": "Cloud",
+          "available": "Verfügbar",
+          "languages": "Sprachen"
+        }
+      },
+      "suedheide": {
+        "tag": "NE4 FTTH",
+        "title": "Wohnquartier Südheide",
+        "description": "Komplette FTTH-Erschließung eines neuen Wohngebiets mit über 500 Wohneinheiten.",
+        "metrics": {
+          "units": "WE",
+          "km": "km",
+          "ontime": "Termin"
+        }
+      },
+      "mdu": {
+        "tag": "NE4 MDU",
+        "title": "MDU-Anschlüsse — Aktives Projekt",
+        "description": "NE4-Ausbau mit Anschlüssen an Mehrfamilienhäuser (MDU). Erste Expansionsphase in neuen städtischen Wohngebieten.",
+        "metrics": {
+          "type": "Typ",
+          "level": "Ebene",
+          "start": "Start"
+        }
+      }
+    }
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Starten Sie Ihr",
+    "titleHighlight": "Projekt",
+    "subtitle": "Ob Glasfaser-Ausbau oder Software-Entwicklung – wir beraten Sie gerne und finden die optimale Lösung.",
+    "info": {
+      "title": "Lassen Sie uns sprechen",
+      "description": "Haben Sie ein Projekt im Kopf oder Fragen zu unseren Dienstleistungen? Unser Team steht Ihnen für ein unverbindliches Gespräch zur Verfügung.",
+      "address": {
+        "title": "Hauptsitz",
+        "line1": "Bilderbeckstraße 127",
+        "line2": "29221 Celle, Deutschland"
+      },
+      "phone": {
+        "title": "Telefon"
+      },
+      "email": {
+        "title": "E-Mail"
+      }
+    },
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "projectType": "Projekttyp",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "selectType": "Bitte wählen...",
+      "types": {
+        "ne3": "NE3 Glasfaser-Ausbau",
+        "ne4": "NE4 FTTH-Installation",
+        "software": "Softwareentwicklung",
+        "bot": "Termin-Bot für Unternehmen",
+        "saas": "System Demo anfragen",
+        "other": "Sonstiges"
+      },
+      "success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns bei Ihnen.",
+      "error": "Bitte füllen Sie alle Pflichtfelder korrekt aus.",
+      "security": "Sicheres Formular mit SSL-Verschlüsselung",
+      "antispam": "Geschützt vor Spam und Bots"
+    }
+  },
+  "trustBanner": {
+    "germanTech": "Deutsche Technologie · Kolumbianische Präsenz",
+    "iso": "ISO 9001",
+    "ftth": "FTTH Certified",
+    "availability": "24/7 Verfügbar"
+  },
+  "teamSection": {
+    "label": "Unser Team",
+    "title": "Experten in",
+    "titleHighlight": "Glasfaser & Software",
+    "description": "Wir kombinieren deutsche technische Expertise mit lateinamerikanischer Innovation, um erstklassige Lösungen zu liefern.",
+    "members": {
+      "ceo": {
+        "name": "Hector M. Rodriguez",
+        "role": "Gründer & CEO",
+        "location": "Celle, Deutschland",
+        "bio": "Telekommunikationsingenieur mit über 10 Jahren Erfahrung in der Glasfaser-Infrastruktur. Leitet strategische Projekte in Deutschland und Europa.",
+        "experience": [
+          "Ex-Telekom",
+          "10+ Jahre Glasfaser",
+          "Software-Ingenieur"
+        ]
+      },
+      "coo": {
+        "name": "Maria L. Torres",
+        "role": "Mitgründerin & COO",
+        "location": "Bogotá, Kolumbien",
+        "bio": "Operations-Spezialistin, die Effizienz in internationalen Telekommunikationsprojekten zwischen Lateinamerika und Europa vorantreibt.",
+        "experience": [
+          "Operations Management",
+          "Internationale Projekte",
+          "Prozessoptimierung"
+        ]
+      },
+      "cto": {
+        "name": "Carlos A. Méndez",
+        "role": "Mitgründer & CTO",
+        "location": "Bogotá, Kolumbien",
+        "bio": "Software-Architekt spezialisiert auf Cloud-Infrastruktur und skalierbare Plattformen für die Telekommunikationsbranche.",
+        "experience": [
+          "Software-Architekt",
+          "8+ Jahre Entwicklung",
+          "Cloud & DevOps"
+        ]
+      }
+    }
+  },
+  "whatsapp": {
+    "tooltip": "Brauchen Sie Hilfe? Schreiben Sie uns! 💬",
+    "helpTitle": "Wie können wir Ihnen helfen?",
+    "defaultMessage": "Hallo, ich möchte mehr über Ihre Dienstleistungen erfahren.",
+    "options": {
+      "fiber": "Glasfaser NE3/NE4",
+      "bot": "Termin-Bot",
+      "custom": "Maßgeschneiderte Software"
+    },
+    "messages": {
+      "fiber": "Hallo, ich interessiere mich für den Glasfaser NE3/NE4 Service",
+      "bot": "Hallo, ich interessiere mich für den Termin-Bot",
+      "custom": "Hallo, ich brauche eine maßgeschneiderte Softwarelösung"
+    }
+  },
+  "footer": {
+    "description": "Ihr strategischer Partner für Glasfaser-Infrastruktur und innovative Technologielösungen in Deutschland und Europa.",
+    "tagline": "Qualität · Innovation · Service",
+    "navigation": "Navigation",
+    "services": "Leistungen",
+    "legal": "Rechtliches",
+    "legalLinks": {
+      "imprint": "Impressum",
+      "privacy": "Datenschutz",
+      "terms": "AGB"
+    },
+    "copyright": "© 2026 HMR Nexus Engineering GmbH. Alle Rechte vorbehalten.",
+    "madeIn": "Made with precision in Celle, Germany"
+  }
+}
