@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Send, Bot, Minimize2, ExternalLink } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_CHAT_API_URL || 'http://localhost:3001';
+const API_URL = import.meta.env.VITE_CHAT_API_URL || 'https://hmr-nexus-bot-production.up.railway.app';
 const TG_BOT  = 'https://t.me/NexusEngineeringBot';
 
 // Unique session ID per browser tab
