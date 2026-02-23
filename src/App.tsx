@@ -1,20 +1,21 @@
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, lazy, Suspense } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { Navbar } from './sections/Navbar';
 import { Hero } from './sections/Hero';
-import { Values } from './sections/Values';
-import { Services } from './sections/Services';
-import { Products } from './sections/Products';
-import { Stats } from './sections/Stats';
-import { Portfolio } from './sections/Portfolio';
-import { Contact } from './sections/Contact';
-import { Footer } from './sections/Footer';
-import { WhatsAppButton } from './components/WhatsAppButton';
-import { ChatWidget } from './components/ChatWidget';
 import { TrustBanner } from './components/TrustBanner';
-import { TeamSection } from './components/TeamSection';
-import { DualMap } from './components/DualMap';
 import './i18n';
+
+// Lazy-load below-the-fold sections for faster initial paint
+const Values      = lazy(() => import('./sections/Values').then(m => ({ default: m.Values })));
+const Services    = lazy(() => import('./sections/Services').then(m => ({ default: m.Services })));
+const Products    = lazy(() => import('./sections/Products').then(m => ({ default: m.Products })));
+const Stats       = lazy(() => import('./sections/Stats').then(m => ({ default: m.Stats })));
+const DualMap     = lazy(() => import('./components/DualMap').then(m => ({ default: m.DualMap })));
+const TeamSection = lazy(() => import('./components/TeamSection').then(m => ({ default: m.TeamSection })));
+const Portfolio   = lazy(() => import('./sections/Portfolio').then(m => ({ default: m.Portfolio })));
+const Contact     = lazy(() => import('./sections/Contact').then(m => ({ default: m.Contact })));
+const Footer      = lazy(() => import('./sections/Footer').then(m => ({ default: m.Footer })));
+const ChatWidget  = lazy(() => import('./components/ChatWidget').then(m => ({ default: m.ChatWidget })));
 
 function App() {
   const [preselectedProjectType, setPreselectedProjectType] = useState<string>('');
@@ -50,40 +51,43 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#050a14] text-white font-sans overflow-x-hidden">
-      {/* Custom Cursor */}
-
       {/* Scroll Progress Bar */}
       <motion.div
         className="fixed top-0 left-0 right-0 h-0.5 z-50 bg-gradient-to-r from-[#0066ff] to-[#a855f7] origin-left"
         style={{ scaleX }}
       />
 
-      {/* Navbar */}
+      {/* Navbar — always eager */}
       <Navbar onScrollToContact={() => scrollToContact()} />
 
       {/* Main Content */}
       <main>
+        {/* Hero — eager (above the fold) */}
         <Hero
           onScrollToServices={scrollToServices}
           onScrollToProducts={scrollToProducts}
         />
-
         <TrustBanner />
-        <Values />
-        <Services />
-        <Products onRequestDemo={() => scrollToContact('saas')} />
-        <Stats />
-        <DualMap />
-        <TeamSection />
-        <Portfolio />
-        <div ref={contactRef}>
-          <Contact preselectedType={preselectedProjectType} />
-        </div>
+
+        {/* Below-the-fold — lazy loaded */}
+        <Suspense fallback={null}>
+          <Values />
+          <Services />
+          <Products onRequestDemo={() => scrollToContact('saas')} />
+          <Stats />
+          <DualMap />
+          <TeamSection />
+          <Portfolio />
+          <div ref={contactRef}>
+            <Contact preselectedType={preselectedProjectType} />
+          </div>
+        </Suspense>
       </main>
 
-      <Footer />
-      <WhatsAppButton />
-      <ChatWidget />
+      <Suspense fallback={null}>
+        <Footer />
+        <ChatWidget />
+      </Suspense>
     </div>
   );
 }
